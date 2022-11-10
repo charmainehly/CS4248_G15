@@ -1,1 +1,20 @@
+<br />
+<h2 align="center">COVID-19 QA System Built on Fine-tuned BERT Model</h2>
+  <p align="center">
+    National University of Singapore CS4248
+    <br />
+    Final Project (G15)
+    <br />
+    Team members: Ding Yi Xin and Han Zong Yu and Ho Li Yun Charmaine and Phianne Calista Io and Yong Zhun Hung 
+  </p>
 
+<br />
+
+<h3> Instructions to run code: </h3>
+<p>
+1. Download combined QA_Preprocessing.ipynb file. <br />
+2. Open up the .ipynb file in google colab. <br />
+3. Uncomment the correct model in cell  to be run i.e. set expt_id = 0, 1 or 2 (for bert, scibert and roberta respectively). <br />
+4. To train evaluate the models for shortened context, full-context and merged shortened, select the option in the top bar to "run all". <br />
+5. Navigate to the sections for results to view the respective EM and F1 scores.
+</p>
